@@ -83,7 +83,7 @@ export const apiCalls = (axios:any) => {
       const response = await axios.get(`/highlights/${matchId}`);
       return response.data;
     },
-    getScoreCard: async (matchId:number, batId:number, bowlId:number, innings:number) => {
+    getScoreCard: async (matchId:number, batId:number, _bowlId:number, innings:number) => {
       const response = await axios.get(`/scorecard/${matchId}`);
       const Data = response.data.data;
       const firstInnigsBatting:any = [];
