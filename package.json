@@ -31,7 +31,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "crickboard_api",
+  "name": "@types/crickboardapi",
   "author": "Shubham Agrawal",
   "module": "dist/crickboard_api.esm.js",
   "size-limit": [
